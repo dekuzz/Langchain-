@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"49e3ebea4b0f7b1e","type":"group","x":-900,"y":-1800,"width":1810,"height":880,"label":"Agent组成架构"},
+		{"id":"201ebae7ddcb4a78","type":"text","text":"### short-term memory","x":-249,"y":-1600,"width":250,"height":60},
+		{"id":"523449aa1a1ed2f2","type":"text","text":"### Reflaction 自我反思","x":640,"y":-1510,"width":250,"height":60},
+		{"id":"a8365fc5a52636e8","type":"text","text":"### Calendar() 日历","x":-880,"y":-1403,"width":250,"height":60},
+		{"id":"4ca5db97151fc1eb","type":"text","text":"### Prompt提示词","x":-520,"y":-1570,"width":250,"height":60},
+		{"id":"95e322993ec6e94c","type":"text","text":"## Tools","x":-420,"y":-1310,"width":120,"height":50},
+		{"id":"2305b1a83b4ec805","type":"text","text":"### Codeinterpreter代码解释器()","x":-880,"y":-1250,"width":250,"height":100},
+		{"id":"73b8aa8eb855019f","type":"text","text":"## Action","x":-61,"y":-1200,"width":125,"height":60},
+		{"id":"3929d19805cab269","type":"text","text":"### .......","x":-820,"y":-1100,"width":100,"height":50},
+		{"id":"65e6a07a14633fbf","type":"text","text":"### Calculator计算器（）","x":-880,"y":-1320,"width":250,"height":60},
+		{"id":"5da114037380c5ad","type":"text","text":"### Self-critis 自我批评","x":640,"y":-1420,"width":250,"height":50},
+		{"id":"be89e9233354cdd9","type":"text","text":"### Chain of thoughts 思维链","x":640,"y":-1345,"width":250,"height":60},
+		{"id":"9b0090739ffc0b8e","type":"text","text":"### Subgoal-composition子目标分解","x":640,"y":-1260,"width":250,"height":60},
+		{"id":"1aeec32eb248ad88","type":"text","text":"## Planning","x":235,"y":-1370,"width":250,"height":60},
+		{"id":"b96eb80067638c04","type":"text","text":"### RAG知识库\n","x":360,"y":-1570,"width":250,"height":60},
+		{"id":"15a9ccb561425c3e","type":"text","text":"## Memory[[Memory 记忆]]","x":-124,"y":-1460,"width":250,"height":65},
+		{"id":"8ffc352f0707c2b2","type":"text","text":"# Agent","x":-124,"y":-1373,"width":250,"height":60},
+		{"id":"9c9fb23eecd6f7d3","type":"text","text":"### long-term memory","x":1,"y":-1600,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"eb87aea8d44746c9","fromNode":"8ffc352f0707c2b2","fromSide":"left","toNode":"95e322993ec6e94c","toSide":"right"},
+		{"id":"a705868ed53dea51","fromNode":"8ffc352f0707c2b2","fromSide":"top","toNode":"15a9ccb561425c3e","toSide":"bottom"},
+		{"id":"b9c4ceeea480a67b","fromNode":"8ffc352f0707c2b2","fromSide":"bottom","toNode":"73b8aa8eb855019f","toSide":"top"},
+		{"id":"6c1de2f847f12da4","fromNode":"8ffc352f0707c2b2","fromSide":"right","toNode":"1aeec32eb248ad88","toSide":"left"},
+		{"id":"76fb15faacbb104b","fromNode":"a8365fc5a52636e8","fromSide":"right","toNode":"95e322993ec6e94c","toSide":"left","toEnd":"none"},
+		{"id":"4bb12f27b8c93a20","fromNode":"65e6a07a14633fbf","fromSide":"right","toNode":"95e322993ec6e94c","toSide":"left","toEnd":"none"},
+		{"id":"1f994978398d44ea","fromNode":"2305b1a83b4ec805","fromSide":"right","toNode":"95e322993ec6e94c","toSide":"left","toEnd":"none"},
+		{"id":"5c4a4430812dfe48","fromNode":"3929d19805cab269","fromSide":"right","toNode":"95e322993ec6e94c","toSide":"left","toEnd":"none"},
+		{"id":"3727d3e5d5917979","fromNode":"1aeec32eb248ad88","fromSide":"right","toNode":"5da114037380c5ad","toSide":"left","toEnd":"none"},
+		{"id":"7cded4af79b5901d","fromNode":"1aeec32eb248ad88","fromSide":"right","toNode":"523449aa1a1ed2f2","toSide":"left","toEnd":"none"},
+		{"id":"a80ef333ffcb12cd","fromNode":"1aeec32eb248ad88","fromSide":"right","toNode":"be89e9233354cdd9","toSide":"left","toEnd":"none"},
+		{"id":"b9a590f96a2fafc2","fromNode":"1aeec32eb248ad88","fromSide":"right","toNode":"9b0090739ffc0b8e","toSide":"left","toEnd":"none"},
+		{"id":"85812b8d851e5828","fromNode":"4ca5db97151fc1eb","fromSide":"bottom","toNode":"8ffc352f0707c2b2","toSide":"left"},
+		{"id":"682f549f4677b2fa","fromNode":"15a9ccb561425c3e","fromSide":"top","toNode":"201ebae7ddcb4a78","toSide":"bottom","toEnd":"none"},
+		{"id":"056ae4e006dee9c3","fromNode":"15a9ccb561425c3e","fromSide":"top","toNode":"9c9fb23eecd6f7d3","toSide":"bottom","toEnd":"none"},
+		{"id":"81203b7f8306cf6f","fromNode":"b96eb80067638c04","fromSide":"bottom","toNode":"1aeec32eb248ad88","toSide":"top","fromEnd":"arrow"},
+		{"id":"676e6f7c01e0f87e","fromNode":"b96eb80067638c04","fromSide":"left","toNode":"8ffc352f0707c2b2","toSide":"right"},
+		{"id":"74df82ac0df75ada","fromNode":"95e322993ec6e94c","fromSide":"bottom","toNode":"73b8aa8eb855019f","toSide":"left"}
+	]
+}

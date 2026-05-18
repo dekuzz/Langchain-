@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "f14230c2d9818bde",
+    "type": "split",
+    "children": [
+      {
+        "id": "76a7d5b783ebef8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c93af5754efa57e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "基础langchain教程/了解Agent和基础搭建框架.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "了解Agent和基础搭建框架"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "efc0d07251297881",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a757b7da92ae045",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e11d2199a9ce6e32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "82cc2333583ac6c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "fc54efd68af0d602",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "9ae8457f3bc30b0a",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c83b722e8b0108ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "64773b92339d6dde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5bf5320bd177792e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "了解Agent和基础搭建框架.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "了解Agent和基础搭建框架 的反向链接列表"
+            }
+          },
+          {
+            "id": "02592e7e9f48bc82",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "了解Agent和基础搭建框架.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "了解Agent和基础搭建框架 的出链列表"
+            }
+          },
+          {
+            "id": "98dc824dfd8856bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1fac5e212c431f94",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "738868623142380c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "了解Agent和基础搭建框架.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "了解Agent和基础搭建框架 的大纲"
+            }
+          },
+          {
+            "id": "1ecd4722b740ac5e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1c93af5754efa57e",
+  "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "RAG教程/理解RAG的标准流水线.md",
+    "Pasted image 20260518113329.png",
+    "RAG教程/内容概要.md",
+    "未命名.base",
+    "基础langchain教程/了解Agent和基础搭建框架.md",
+    "RAG教程",
+    "AgenticRAG",
+    "基础langchain教程",
+    "基础langchain教程/ReActAgent的介绍和搭建.md",
+    "基础langchain教程/上下文工程.md"
+  ]
+}
