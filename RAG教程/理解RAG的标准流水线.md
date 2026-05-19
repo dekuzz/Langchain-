@@ -84,3 +84,46 @@ import seaborn as sns
 sns.barplot(x='top_k', y='hit', data=hit_stat_df.groupby('top_k')['hit'].mean().reset_index())
 
 ```
+### LCEL处理问答系统
+```python
+from langchain_community.llms import Ollama  
+from langchain_core.output_parsers import StrOutputParser  
+from langchain_core.runnables import RunnablePassthrough  
+from langchain_core.prompts import PromptTemplate  
+  
+def format_docs(docs):  
+    return "\n\n".join(doc.page_content for doc in docs)  
+  
+llm = Ollama(  
+    model='deepseek-r1:8b',  
+    base_url="http://localhost:11434"  
+)  
+  
+prompt_tmpl = """  
+你是一个金融分析师，擅长根据所获取的信息片段，对问题进行分析和推理。  
+你的任务是根据所获取的信息片段（<<<<context>>><<<</context>>>之间的内容）回答问题。  
+回答保持简洁，不必重复问题，不要要添加描述性解释和与答案无关的任何内容。  
+已知信息：  
+<<<<context>>>  
+{context}  
+<<<</context>>>  
+  
+问题：{question}  
+请回答：  
+"""  
+prompt = PromptTemplate.from_template(prompt_tmpl)  
+retriever = vector_db.as_retriever(search_kwargs={'k': 4})  
+  
+rag_chain = (  
+    {"context": retriever | format_docs, "question": RunnablePassthrough()}  
+    | prompt  
+    | llm  
+    | StrOutputParser()  
+)  
+#流式输出
+for chunk in rag_chain.stream("2023年10月美国ISM制造业PMI指数较上月有何变化？"):  
+    print(chunk, end="", flush=True)
+#非流式输出
+print(rag_chain.invoke('2023年10月美国ISM制造业PMI指数较上月有何变化？'))
+
+```

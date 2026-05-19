@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基础langchain教程/了解Agent和基础搭建框架.md",
+                "file": "RAG教程/5种文档切分优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "了解Agent和基础搭建框架"
+              "title": "5种文档切分优化"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "了解Agent和基础搭建框架.md",
+                "file": "RAG教程/5种文档切分优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "了解Agent和基础搭建框架 的大纲"
+              "title": "5种文档切分优化 的大纲"
             }
           },
           {
@@ -183,6 +183,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "6e2e89fa764e1bb0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -204,14 +214,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c93af5754efa57e",
+  "active": "1ecd4722b740ac5e",
   "lastOpenFiles": [
-    "新建 文本文档.txt",
-    "RAG教程/理解RAG的标准流水线.md",
-    "Pasted image 20260518113329.png",
+    "RAG教程/14种检索优化.md",
+    "RAG教程/掌握高质量数据源提取.md",
+    "RAG教程/5种文档切分优化.md",
     "RAG教程/内容概要.md",
-    "未命名.base",
+    "RAG教程/理解RAG的标准流水线.md",
+    "README.md",
+    "5种文档切分优化-1779106762004.webp",
+    "Pasted image 20260518113329.png",
+    "5种文档切分优化-1779106728591.webp",
+    "未命名.canvas",
     "基础langchain教程/了解Agent和基础搭建框架.md",
+    "新建 文本文档.txt",
+    "未命名.base",
     "RAG教程",
     "AgenticRAG",
     "基础langchain教程",
