@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG教程/5种文档切分优化.md",
+                "file": "RAG教程/14种检索优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5种文档切分优化"
+              "title": "14种检索优化"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RAG教程/5种文档切分优化.md",
+                "file": "RAG教程/14种检索优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5种文档切分优化 的大纲"
+              "title": "14种检索优化 的大纲"
             }
           },
           {
@@ -196,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -214,11 +214,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ecd4722b740ac5e",
+  "active": "1c93af5754efa57e",
   "lastOpenFiles": [
-    "RAG教程/14种检索优化.md",
-    "RAG教程/掌握高质量数据源提取.md",
     "RAG教程/5种文档切分优化.md",
+    "RAG教程/14种检索优化.md",
+    "sep.md",
+    "5种文档切分优化-1779201580895.webp",
+    "RAG教程/掌握高质量数据源提取.md",
     "RAG教程/内容概要.md",
     "RAG教程/理解RAG的标准流水线.md",
     "README.md",
