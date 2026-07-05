@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"dd5a59e7f9ec662e","x":-160,"y":-560,"width":250,"height":60,"color":"5","type":"text","text":"用户query"},
+		{"id":"b5c4a7b6ac369633","x":-160,"y":-440,"width":250,"height":60,"color":"6","type":"text","text":"智能体规划器"},
+		{"id":"771db7b8775c697d","x":-160,"y":-300,"width":250,"height":60,"color":"3","type":"text","text":"子任务列表"},
+		{"id":"52e3200afefd9d4e","x":-160,"y":-158,"width":250,"height":60,"color":"#ffa8be","type":"text","text":"任务执行器"},
+		{"id":"6aaf26afa8bd95e3","x":160,"y":-13,"width":250,"height":60,"color":"6","type":"text","text":"搜索工具"},
+		{"id":"eecb87d0d9bfe8e4","x":-340,"y":-43,"width":250,"height":60,"color":"5","type":"text","text":"总结Agent"},
+		{"id":"f28cf51ea20461e6","x":-340,"y":80,"width":250,"height":60,"color":"#8affad","type":"text","text":"任务总结Markdown"},
+		{"id":"b362b2a8564fcec3","x":-340,"y":200,"width":250,"height":60,"color":"3","type":"text","text":"任务是否全部完成"},
+		{"id":"652a0aa5eb37dc40","x":-340,"y":420,"width":250,"height":60,"color":"3","type":"text","text":"最终报告Markdown"},
+		{"id":"33a93d426718676e","x":-340,"y":320,"width":250,"height":60,"color":"6","type":"text","text":"报告生成"}
+	],
+	"edges":[
+		{"id":"a4dc241229ac77ee","fromNode":"dd5a59e7f9ec662e","fromSide":"bottom","toNode":"b5c4a7b6ac369633","toSide":"top"},
+		{"id":"98fe54172852036a","fromNode":"b5c4a7b6ac369633","fromSide":"bottom","toNode":"771db7b8775c697d","toSide":"top"},
+		{"id":"85a3ca69680d29fa","fromNode":"771db7b8775c697d","fromSide":"bottom","toNode":"52e3200afefd9d4e","toSide":"top"},
+		{"id":"3ddcc37bd326461d","fromNode":"52e3200afefd9d4e","fromSide":"bottom","toNode":"eecb87d0d9bfe8e4","toSide":"top"},
+		{"id":"6c5f4ed75113146f","fromNode":"52e3200afefd9d4e","fromSide":"bottom","toNode":"6aaf26afa8bd95e3","toSide":"top"},
+		{"id":"14b8e039f85a787b","fromNode":"6aaf26afa8bd95e3","fromSide":"bottom","toNode":"52e3200afefd9d4e","toSide":"bottom","label":"返回结果"},
+		{"id":"6982f43011de0037","fromNode":"eecb87d0d9bfe8e4","fromSide":"bottom","toNode":"f28cf51ea20461e6","toSide":"top"},
+		{"id":"b352f9695a4ba48b","fromNode":"f28cf51ea20461e6","fromSide":"bottom","toNode":"b362b2a8564fcec3","toSide":"top"},
+		{"id":"322cda5f2f7a11a8","fromNode":"b362b2a8564fcec3","fromSide":"bottom","toNode":"33a93d426718676e","toSide":"top","label":"是"},
+		{"id":"739bb340b04f7fdd","fromNode":"33a93d426718676e","fromSide":"bottom","toNode":"652a0aa5eb37dc40","toSide":"top"}
+	]
+}

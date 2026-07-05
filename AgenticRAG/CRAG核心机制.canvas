@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"a83396f0ca268850","x":-440,"y":-30,"width":120,"height":50,"color":"5","type":"text","text":"User query 🔍"},
+		{"id":"9333c1d24e1babe3","x":-260,"y":-30,"width":145,"height":50,"color":"3","type":"text","text":"Agent Reasoning 🧠"},
+		{"id":"11c24fd16b4ff0d4","x":-80,"y":-30,"width":100,"height":50,"color":"4","type":"text","text":"RAG Tool"},
+		{"id":"16d33e1b700d21ed","x":60,"y":-35,"width":140,"height":60,"color":"6","type":"text","text":"Scoring Middleware"},
+		{"id":"ee4494780b177892","x":240,"y":-35,"width":250,"height":60,"color":"#0055ff","type":"text","text":"文档评级/是否能回答用户问题"},
+		{"id":"37cfd24a07d49646","x":520,"y":-180,"width":220,"height":50,"color":"5","type":"text","text":"基于文档生成最终答案"},
+		{"id":"5b923427c0d3df74","x":520,"y":100,"width":250,"height":50,"color":"3","type":"text","text":"纠正行为（如：上网搜索）"},
+		{"id":"7b51095a7ed837b1","x":840,"y":95,"width":120,"height":60,"color":"2","type":"text","text":"纠正Context"},
+		{"id":"343bee6396b9ec76","x":960,"y":-56,"width":250,"height":60,"color":"6","type":"text","text":"Final Response"}
+	],
+	"edges":[
+		{"id":"c1227ae43efcd329","fromNode":"a83396f0ca268850","fromSide":"right","toNode":"9333c1d24e1babe3","toSide":"left"},
+		{"id":"94bfb61cf1a63054","fromNode":"9333c1d24e1babe3","fromSide":"right","toNode":"11c24fd16b4ff0d4","toSide":"left"},
+		{"id":"cbb81b5adc5095cd","fromNode":"11c24fd16b4ff0d4","fromSide":"right","toNode":"16d33e1b700d21ed","toSide":"left"},
+		{"id":"cb760ddc3b8d779f","fromNode":"16d33e1b700d21ed","fromSide":"right","toNode":"ee4494780b177892","toSide":"left"},
+		{"id":"9923bba0094f51a4","fromNode":"ee4494780b177892","fromSide":"top","toNode":"37cfd24a07d49646","toSide":"left","label":"相关/高分\n\n"},
+		{"id":"9baeb2b8504570a5","fromNode":"ee4494780b177892","fromSide":"bottom","toNode":"5b923427c0d3df74","toSide":"left","label":"不相关/低分"},
+		{"id":"5f97c38d0b38ad40","fromNode":"5b923427c0d3df74","fromSide":"right","toNode":"7b51095a7ed837b1","toSide":"left"},
+		{"id":"0bcc2b3da11f1d23","fromNode":"37cfd24a07d49646","fromSide":"right","toNode":"343bee6396b9ec76","toSide":"left"},
+		{"id":"1e99eb98b0726489","fromNode":"7b51095a7ed837b1","fromSide":"right","toNode":"343bee6396b9ec76","toSide":"left"}
+	]
+}

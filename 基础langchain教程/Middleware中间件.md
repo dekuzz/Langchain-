@@ -27,9 +27,9 @@ Langchain可通过装饰器自定义中间件类型
 - HumanInTheLoopMiddleware （）：
 	- [[人机交互]]
 - @dynamic_prompt
-	- [[上下文工程]]
+	- [[基础langchain教程/上下文工程]]
 - SummarizationMiddleware():
-	- [[上下文工程]]
+	- [[基础langchain教程/上下文工程]]
 ### 预算控制 (`@wrap_model_call`的使用)
 - **使用场景**：随着对话轮次增加，每次请求携带的对话记录也会越来越长，从而导致请求费用上升。为了控制预算，可以设定在对话轮次超过某个阈值后，切换到低费率模型。这个功能可以通过自定义中间件实现。
 ``` python

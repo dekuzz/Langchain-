@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"5a6325587f5fda9d","type":"text","text":"RAG 链路执行 \nQuery -> Context -> Answer","x":-340,"y":-340,"width":250,"height":100,"color":"5"},
+		{"id":"678b0f3a6dcd77fe","type":"text","text":"TruLens记录器","x":-340,"y":-200,"width":250,"height":60,"color":"4"},
+		{"id":"03f92f1310c73910","type":"text","text":"外部大模型Provider，利用COT思维链,强行注入指令到LLM提示词","x":-340,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"1424b327729927b2","type":"text","text":"评估检索质量","x":-400,"y":160,"width":250,"height":60},
+		{"id":"e7de2825bec264df","type":"text","text":"评估忠诚度","x":-150,"y":160,"width":250,"height":60},
+		{"id":"1a63bf65356de6b7","type":"text","text":"评估答案相关性","x":100,"y":160,"width":250,"height":60},
+		{"id":"7f717d6a4d611d03","type":"text","text":"RAG三元组自动打分","x":-340,"y":20,"width":250,"height":60},
+		{"id":"5cd473b7ee5affb8","type":"text","text":"汇总体现量化分数至 Dashboard","x":-340,"y":380,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f696fd8d2030dded","fromNode":"5a6325587f5fda9d","fromSide":"bottom","toNode":"678b0f3a6dcd77fe","toSide":"top"},
+		{"id":"456eb0a799b29c93","fromNode":"678b0f3a6dcd77fe","fromSide":"bottom","toNode":"03f92f1310c73910","toSide":"top"},
+		{"id":"16cdd35c1b39d5ab","fromNode":"03f92f1310c73910","fromSide":"bottom","toNode":"7f717d6a4d611d03","toSide":"top"},
+		{"id":"c15637ac19f6b674","fromNode":"7f717d6a4d611d03","fromSide":"bottom","toNode":"1424b327729927b2","toSide":"top"},
+		{"id":"c52ce6eb6f9565a8","fromNode":"7f717d6a4d611d03","fromSide":"bottom","toNode":"e7de2825bec264df","toSide":"top"},
+		{"id":"d15eb291801be9ba","fromNode":"7f717d6a4d611d03","fromSide":"bottom","toNode":"1a63bf65356de6b7","toSide":"top"},
+		{"id":"82e1df5db1dc7106","fromNode":"1424b327729927b2","fromSide":"bottom","toNode":"5cd473b7ee5affb8","toSide":"top"},
+		{"id":"644bdf1e5244adf2","fromNode":"e7de2825bec264df","fromSide":"bottom","toNode":"5cd473b7ee5affb8","toSide":"top"},
+		{"id":"596f188e9182cb12","fromNode":"1a63bf65356de6b7","fromSide":"bottom","toNode":"5cd473b7ee5affb8","toSide":"top"}
+	]
+}
